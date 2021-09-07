@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio 2012
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXRichEditPrinting", "DXRichEditPrinting\DXRichEditPrinting.csproj", "{1B186E06-9EBE-469C-BB2C-0C57958C9DC1}"
