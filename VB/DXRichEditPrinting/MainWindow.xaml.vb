@@ -39,7 +39,7 @@ Namespace DXRichEditPrinting
 
             '            #Region "#setprintoptions"
             For Each _section As Section In richEditControl1.Document.Sections
-                _section.Page.PaperKind = PaperKind.A3
+                _section.Page.PaperKind = DevExpress.Drawing.Printing.DXPaperKind.A3
                 _section.Page.Landscape = True
                 _section.Margins.Left = 500.0F
                 _section.Margins.Right = 500.0F

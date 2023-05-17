@@ -40,7 +40,7 @@ namespace DXRichEditPrinting
             #region #setprintoptions
             foreach (Section _section in richEditControl1.Document.Sections)
             {
-                _section.Page.PaperKind = PaperKind.A3;
+                _section.Page.PaperKind = DevExpress.Drawing.Printing.DXPaperKind.A3;
                 _section.Page.Landscape = true;
                 _section.Margins.Left = 500f;
                 _section.Margins.Right = 500f;
